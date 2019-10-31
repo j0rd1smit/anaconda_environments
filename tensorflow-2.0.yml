@@ -1,0 +1,14 @@
+name: tensorflow-2.0
+channels:
+  - conda-forge
+  - menpo
+dependencies:
+  - python=3.6
+  - tqdm
+  - numpy
+  - mypy
+  - git
+  - pip
+  - pip:
+      - tensorflow-gpu==2.0.0-rc1
+      - sklearn
